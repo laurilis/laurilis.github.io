@@ -1,0 +1,56 @@
+* {background-color: khaki;
+    font-family: 'Work Sans', sans-serif;}
+
+.twosections {display: inline-flex;
+                justify-content: space-between;
+                width: 100%;    
+                position: fixed;
+                z-index: 10;
+              
+            }
+
+header li {display: inline-flex; 
+        list-style-type: none;
+        margin-right: 20px;
+        margin-top: 10px;
+        font-size: 2em;}
+header ul {margin-right: 50px;}
+
+
+header h3 {font-size: 4em;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-family: 'Dancing Script', cursive;
+        }
+a {text-decoration-line: none;
+            color: black;}
+
+body {margin-left: 40px;}
+
+main {padding-top: 100px;}
+
+.layout {display: inline-flex; }
+
+#moi {width: 200px; height: 200px; margin-top: 70px;
+    margin-right: 150px;
+    margin-left: 150px;}
+
+main ul li {list-style-type: "\2713";
+            padding-left: 5px;
+            font-size: 1.25em;
+            font-style: bold;}
+
+#skills {display: inline-flex;}
+
+img {width: 40px;
+    margin-left: 30px;
+    height: auto;
+    padding-top: 0;}
+
+#skill {height: 40px; width: auto;}
+
+footer {  left: 50%;
+    transform: translateX(-50%);}
+
+
