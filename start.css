@@ -32,8 +32,6 @@ main {padding-top: 100px;}
 
 .layout {display: inline-flex; }
 
-#moifirst {visibility: hidden;}
-
 #moi {width: 200px; height: 200px; margin-top: 70px;
     margin-right: 150px;
     margin-left: 150px;}
@@ -66,22 +64,17 @@ footer {  left: 50%;
     header h3 {flex-grow: 1; font-size: 3em; padding-left: 20px; margin-bottom: 0; margin-bottom: 10px; position: absolute;}
     main {padding: 20px; margin: 0px;}  
     body {padding: 0px; margin: 0px;}  
-    .layout {display: flex; flex-direction: column; margin-top: 0; position: relative; bottom: 45px;}
-  
+    .layout {display: flex; flex-direction: column;}
     p {flex-grow: 1; text-align: justify; font-size: 20px;}
-    .proyecto {position: relative; bottom: 300px;}
 
-    #moi {visibility: hidden;}
-    #moifirst {visibility: visible; display: block; width: 40%; padding-top: 100px; padding-bottom: 0; margin: 0 auto;}
+    #moi {display: block; margin: 0 auto;}
 
     h2, h2#skills {left: 0; right: 0; text-align: center;}
-    #skills {display: block; left:0; right: 0;} 
-    .lasty {position: relative; bottom: 275px}
-    #invisible {visibility: visible ; position: relative; bottom: 120px;}
+    #skills {display: block; left:0; right: 0;}
+    #invisible {visibility: visible ;}
     footer {transform: none; left: 0; right: 0; text-align: center;}
     #contacticons {display: flex; justify-content: center; }
     #icon {margin: 0 auto;}
-    footer {bottom: 100px; position: relative;}
     
     
   
