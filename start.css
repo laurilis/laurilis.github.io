@@ -53,4 +53,30 @@ img {width: 40px;
 footer {  left: 50%;
     transform: translateX(-50%);}
 
+#invisible {visibility: hidden;}
 
+
+
+ 
+@media only screen and (max-width: 480px) {
+    .twosections {flex-direction: column; position: relative}
+    header ul a {visibility: hidden; font-size: 1px; padding: 0px; margin: 0px;}
+    header h3 {flex-grow: 1; font-size: 3em; padding-left: 20px; margin-bottom: 0; margin-bottom: 10px; position: absolute;}
+    main {padding: 20px; margin: 0px;}  
+    body {padding: 0px; margin: 0px;}  
+    .layout {display: flex; flex-direction: column;}
+    p {flex-grow: 1; text-align: justify; font-size: 20px;}
+
+    #moi {display: block; margin: 0 auto;}
+
+    h2, h2#skills {left: 0; right: 0; text-align: center;}
+    #skills {display: block; left:0; right: 0;}
+    #invisible {visibility: visible ;}
+    footer {transform: none; left: 0; right: 0; text-align: center;}
+    #contacticons {display: flex; justify-content: center; }
+    #icon {margin: 0 auto;}
+    
+    
+  
+}
+    
