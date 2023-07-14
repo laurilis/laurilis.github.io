@@ -58,7 +58,7 @@ footer {  left: 50%;
 
 
  
-@media only screen and (max-width: 480px) and (orientation: portrait) {
+@media only screen and (max-width: 480px) {
     .twosections {flex-direction: column; position: relative}
     header ul a {visibility: hidden; font-size: 1px; padding: 0px; margin: 0px;}
     header h3 {flex-grow: 1; font-size: 3em; padding-left: 20px; margin-bottom: 0; margin-bottom: 10px; position: absolute;}
