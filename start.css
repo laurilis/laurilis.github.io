@@ -81,8 +81,9 @@ footer {  left: 50%;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-    header li {display: inline; font-size: 25px; margin-right: 0;}
-    header h3 {font-size: 40px;}
+    header li {display: inline; font-size: 25px; }
+    header h3 {font-size: 40px; margin-right: 0;}
+    header ul {margin-left: 0; padding-left: 0;}
     .content p {text-align: justify; font-size: 20px; width: 90%; position: absolute; }
     #moi {position: relative; top: 500px;}
     #projects, main ul li {position: relative; top: 500px;}
